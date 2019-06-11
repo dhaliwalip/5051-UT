@@ -8,8 +8,15 @@ namespace UnitTests.Models
     public class LogViewModelTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void LogViewModel_Instantiate_Default_Should_Pass()
         {
+            //Arrange
+
+
+            //Act
+
+
+            //Assert
         }
     }
 }
