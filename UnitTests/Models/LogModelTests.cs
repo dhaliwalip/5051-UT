@@ -71,10 +71,10 @@ namespace UnitTests.Models
             var myTestID = myTest.ID;
 
             // Act
-            var result = myTest.Update(myUpdate);
+            myTest.Update(myUpdate);
 
             // Assert
-            //Assert.AreEqual(myTestID, myTest.ID);
+            Assert.AreEqual(myTestID, myTest.ID);
         }
     }
 }
