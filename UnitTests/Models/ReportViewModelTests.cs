@@ -66,17 +66,19 @@ namespace UnitTests.Models
         {
             //Arrange
             var myTest = new ReportViewModel();
+            var myLog = new LogViewModel();
 
-            var myLog = new LogModel();
-            var myPhoneId = "Phone";
+            var myList = new List<LogModel>();
+            myList.Add(new LogModel { PhoneID = "Phone" });
 
+            myLog.LogList = myList;
+            var result = myLog.LogList;
 
             //Act
-            myLog.PhoneID = myPhoneId;
-            var result = myLog.PhoneID;
+            myTest.LogViewModel = myLog;
 
             //Assert
-            Assert.AreEqual("Phone", result);
+            Assert.AreEqual(myTest.LogViewModel, myLog );
             
         }
 
