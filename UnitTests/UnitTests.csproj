@@ -52,7 +52,7 @@
     <Compile Include="Backend\LogRepositoryMockTests.cs" />
     <Compile Include="Models\LogModelTests.cs" />
     <Compile Include="Models\LogViewModelTests.cs" />
-    <Compile Include="Models\ReportViewModel.cs" />
+    <Compile Include="Models\ReportViewModelTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
