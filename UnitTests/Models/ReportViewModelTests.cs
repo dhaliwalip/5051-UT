@@ -18,7 +18,6 @@ namespace UnitTests.Models
 
             //Assert
             Assert.IsNotNull(result);
-
         }
     }
 }
